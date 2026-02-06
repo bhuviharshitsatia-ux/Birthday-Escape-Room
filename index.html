@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Birthday Surprise 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Birthday Surprise 🎉</h1>
+        <div id="resultText"></div>
+    </div>
+
+    <!-- Optional Music -->
+    <audio id="bgMusic" src="bgmusic.mp3" autoplay loop></audio>
+
+    <script src="script.js"></script>
+    <script>
+        // Start typing and confetti on page load
+        window.onload = () => {
+            launchConfetti();
+            showResult("Kashish"); // replace with her name
+        }
+    </script>
+</body>
+</html>
